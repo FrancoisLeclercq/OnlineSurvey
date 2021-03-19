@@ -1,0 +1,45 @@
+/* media query for dark theme */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image: url('../images/background_home_dark.jpg');
+    background-color: black;
+  }
+  html {
+  --text-color-normal: hsl(210, 10%, 62%);
+  --text-color-light: hsl(210, 15%, 35%);
+  --text-color-richer: hsl(210, 50%, 72%);
+  --text-color-highlight: hsl(25, 70%, 45%);
+  }
+  .title {
+    color : black;
+    z-index: 1;
+  }
+
+  .title-bis {
+    color : black;
+  }
+
+  .color-text {
+    color : black;
+  }
+
+  .help-text-content {
+    color : white;
+  }
+
+  .image-white-line {
+    color : black;
+  }
+
+  .background-fade {
+    background-color: rgba(255,255,255,0.2);
+  }
+}
+
+
+/* media query for max res 1600px */
+@media only screen and (max-width: 1600px) {
+  .wave  {
+    display: none;
+  }
+}

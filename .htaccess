@@ -1,0 +1,10 @@
+#client error
+ErrorDocument 400 /2PROJ/private/errors/bad-request.php
+ErrorDocument 403 /2PROJ/private/errors/forbidden.php
+ErrorDocument 404 /2PROJ/private/errors/not-found.php
+ErrorDocument 408 /2PROJ/private/errors/req-timeout.php
+
+#server error
+ErrorDocument 500 /2PROJ/private/errors/server-error.php
+ErrorDocument 502 /2PROJ/private/errors/bad-gateway.php
+ErrorDocument 504 /2PROJ/private/errors/gateway-timeout.php

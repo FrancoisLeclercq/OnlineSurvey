@@ -1,0 +1,780 @@
+html {
+  --text-color-normal: #0a244d;
+  --text-color-light: #8cabd9;
+}
+
+body {
+  background-image: url("../images/background_home.jpg");
+  background-color:rgba(255, 255, 255, 0.1);
+  background-size: 102%;
+  background-attachment: fixed;
+  background-color: rgb(0,1,49);
+  zoom: 80%;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.custom-file-input {
+  margin-bottom: -2.2rem;
+  width: 10.3rem;
+  display: block;
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+
+.custom-file-input:hover::before {
+  border-color: black;
+}
+
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+::-webkit-scrollbar-corner {width:10px !important; height: 10px !important;}
+
+::-webkit-scrollbar {background: #666; width:1.1rem !important; height: 1.1rem !important;}
+
+::-webkit-scrollbar-thumb{border: none !important; background: #808080 !important;}
+    
+::-webkit-scrollbar-thumb:hover{background: grey !important;}
+
+#navbar-flex {
+  display: inline-flex;
+}
+
+.svg {
+  position: fixed;
+  margin-top: 0.16rem;
+  margin-left: 0.08rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.dsvg {
+  margin-top: -0.2rem;
+  max-block-size: 2rem;
+}
+
+.nav-link {
+  font-size:18px;
+}
+
+.font {
+  font-family: YouTube Sans;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.font:hover {
+  color: black;
+}
+  
+.homeheader {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logohome {
+  margin-top: 5px;
+  max-block-size: 38px;
+}
+
+.dropdwnContent {
+  border-radius: 0.5rem;
+  display: none;
+  border-width: 1px;
+  background-color: #666666;
+  min-width: 150px;
+  margin-top: 3rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdwnContent .dropdownMenu {
+  text-align: left;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdwnContent {
+  position: fixed;
+  top: 15px;
+  right: 10px;
+  display: block;
+  background-color: #aaaaaa;
+}
+
+.title {
+  text-align: center;
+  padding : 0;
+  margin : 0 auto;
+  color : lightgrey !important;
+  font-family: 'YouTube Sans Medium';
+  opacity: 0.9;
+  font-size: 5rem;
+  font-weight: 300;
+  margin-top: 175px;
+  margin-bottom: 125px;
+}
+
+.title-bis {
+    font-family: 'YouTube Sans';
+    color: #cccccc !important;
+    text-align: center;
+    font-size: 2em;
+    text-shadow:  1px 1px rgba(0,0,0,0.3);
+}
+
+#logout-button {
+  margin-left: 20px;
+}
+
+.saveButton {
+  outline: none;
+  background-color: #ffba26;
+  border: 0;
+  border-radius: .25rem;
+  color : #333333;
+  display: block;
+  font-size: 2em;
+  font-family: 'YouTube Sans';
+  margin-left: 44.8%;
+  margin-top: 1%;
+  width: 200px;
+  height: 60px;
+  opacity: 0.8;
+}
+
+.L {
+  width: 16rem !important;
+  background-color: rgba(255,255,255,0.6) !important;
+}
+
+.R {
+  width: 24rem !important;
+  background-color: rgba(255,255,255,0.6) !important; /*29cc04*/
+}
+
+.LR {
+  padding-top: 0.3rem;
+  text-decoration: none !important;
+  margin-top: 4rem !important;
+  margin-bottom: 1rem !important;
+  opacity: 0.6;
+  font-family: 'YouTube Sans Light';
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333333 !important;
+}
+
+.Login {
+  width: 200px !important;
+  height: 60px !important;
+  text-align: center;
+  border-radius: .25rem;
+  margin-top: 3.4rem !important;
+  margin-bottom: 1rem !important;
+  opacity: 0.6;
+  font-family: 'YouTube Sans Light';
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.myButtonIndex {
+  outline: none;
+  background-color: #ffba26;
+  border: 0;
+  border-radius: .25rem;
+  color : #333333;
+  display: block;
+  font-size: 2em;
+  font-family: 'YouTube Sans';
+  margin: 0 auto;
+  width: 260px;
+  height: 60px;
+  opacity: 0.8;
+}
+
+.myButton {
+  outline: none;
+  background-color: #ffba26;
+  border: 0;
+  border-radius: .25rem;
+  color : #333333;
+  display: block;
+  font-size: 2em;
+  font-family: 'YouTube Sans';
+  margin: 0 auto;
+  width: 260px;
+  height: 60px;
+  opacity: 0.8;
+}
+
+.myButton:focus {
+    outline: 0;
+}
+
+.myButton2:focus {
+    outline: 0;
+}
+
+.myButton2 {
+  outline: none;
+  background-color: #ffba26;
+  border: 0;
+  border-radius: .25rem;
+  color : #121212;
+  display: block;
+  font-size: 2em;
+  font-family: 'YouTube Sans';
+  margin: 0 auto;
+  margin-top: 4em;
+  width: 260px;
+  height: 60px;
+  opacity: 0.7;
+}
+
+.myButton:hover {
+  opacity: 0.9;
+}
+
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+input::-webkit-input-placeholder {
+  text-align: center;
+}
+
+
+.formInput:focus {
+  opacity: 0.7;
+  outline: none;
+}
+
+.formInput:hover {
+  opacity: 0.7
+}
+
+.label {
+  color: #eee !important;
+  text-align: left !important;
+  font-family: 'YouTube Sans Light';
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.formInput {
+  width: 200px;
+  height: 45px;
+  border: 0;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: left;
+  border-radius: .25rem;
+  opacity: 0.6;
+  font-family: 'YouTube Sans Light';
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin : 10px;
+}
+
+#change-information {
+  text-align: center;
+  margin-top: -1rem;
+}
+
+#change-information label {
+  font-family: 'YouTube Sans';
+  color : white;
+}
+
+.background-fade {
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 3rem;
+  border-radius: 0.5rem;
+}
+
+.background-survey {
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 3rem;
+  margin-bottom: 3rem !important;
+  border-radius: 0.5rem;
+  width: 75rem;
+}
+
+.background-add {
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 2rem;
+    border-radius: 0.5rem;
+  margin-bottom: 3rem !important;
+}
+
+.lists {
+  border-radius: 0.25rem;
+}
+
+.container {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+.button-list {
+  border-radius: 0.4rem;
+  border: none;
+  padding-left: 3rem;
+  font-size: 1.5rem;
+  font-family: YouTube Sans Light;
+  font-weight: bold;
+}
+
+#listspan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.create-card-item {
+  margin : 0 auto;
+  font-family: 'YouTube Sans';
+  margin-bottom: 1rem;
+  opacity: 1;
+}
+
+.create-card-item:hover {
+  opacity: 0.8;
+}
+
+.answer-card-item {
+  margin : 0 auto;
+  font-family: 'YouTube Sans';
+  margin-bottom: 1rem;
+  opacity: 0.7;
+}
+
+.answer-card-item:hover, .answer-card-item:focus {
+  opacity: 0.85;
+}
+
+input.create-card-item, textarea.create-card-item, button.create-card-item, .choice-list input[type=submit], textarea.answer-card-item {
+  outline: none;
+  border: 0;
+  border-radius: .25rem;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.choice-list {
+  text-align: center;
+}
+
+
+.choice-list input[type=text], .choice-list label {
+  display: block;
+  background-color: rgba(0,0,0,0);
+  outline: none;
+  margin : 0 auto;
+  width: 80rem;
+  border : 0;
+  margin-bottom: 1rem;
+  font-family: 'YouTube Sans';
+  font-size: 30px;
+}
+
+.my-list-todo, .shared-list-todo-r, .shared-list-todo-w {
+  text-align: center;
+  margin : 0 auto;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+#list-of-todo-view, #create-todo-view {
+  position: relative;
+}
+
+#list-of-todo, #create-todo {
+  position: relative;
+  display: none;
+}
+
+#list-of-todo {
+  margin-bottom: 5rem;
+}
+
+.add-new-list-input, #image-add  {
+  text-align: left;
+  height: 3.5rem;
+  width: 30rem;
+  margin: 1.2rem;
+  margin-top: 1.2rem;
+  background-color: lightgrey;
+  outline: none;
+  padding-left: 0.8%;
+  padding-right: 0.8%;
+  border: 0;
+  opacity: 1;
+  border-radius: 0.25rem;
+  font-family: 'YouTube Sans';
+  font-size: 1.6rem;
+  color: #202020;
+}
+
+#image-add {
+  margin : 0 auto;
+  margin-bottom: 2rem;
+}
+
+#label-image-add {
+  font-family: 'YouTube Sans';
+  font-size: 1rem;
+}
+
+.add-new-list-input[type=text]:focus {
+    text-align: left;
+}
+
+.add-new-list-input[type=submit] {
+  font-weight: bold;
+}
+
+.add-new-list {
+  text-align: center;
+}
+
+.card-id {
+  display: none;
+}
+
+#switch-new-user {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.mySpinner {
+  position: fixed;
+  top : 50%;
+  z-index: 999;
+  right : 50%;
+  display: none;
+}
+
+
+.fixedElement {
+    position:fixed;
+    top:0;
+    width: 100%;
+    z-index:100;
+}
+
+.image-white-line {
+  width: 200px;
+  color : white;
+  padding : 0;
+  margin : 0 auto;
+  text-align: center;
+}
+
+.color-text{
+  color : white;
+  font-family: 'YouTube Sans' !important;
+}
+
+.help-text-content {
+  padding: 0;
+  font-family: 'YouTube Sans', 'Segoe UI';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#name-list {
+  font-size: 20px;
+  font-family: 'YouTube Sans';
+}
+
+#return-button-div {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top : 10rem;
+  left: 5rem;
+}
+
+#my-return-button {
+  width: 75px;
+  opacity: 0.6;
+}
+
+#delete-account {
+    width: 400px;
+    margin : 0 auto;
+    margin-top: 3rem;
+    background-color : rgba(255,0,0,0.8);
+}
+
+.delete-acc {
+  position: absolute;
+  background-color: grey;
+  border-radius: 0.5rem;
+  display: none;
+  text-align: center;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 3.7rem;
+  padding-bottom: 2rem;
+  margin-top: -16.8rem;
+  margin-left: 60rem;
+  animation: FADE_IN 0.5s;
+  transform: translate(-50%, -50%);
+}
+
+.delete-acc button, .delete-acc p  {
+  margin : 20px;
+  font-family: 'YouTube Sans';
+  font-size: 2rem;
+}
+
+.delete-acc2  {
+  text-align: center;
+  max-width: 24rem;
+  font-family: 'YouTube Sans';
+  font-size: 2.4rem !important;
+  line-height: 3rem;
+  margin-left: 2.8rem !important;
+  margin-bottom: 2rem;
+}
+
+.delete-acc3  {
+  max-width: 22rem;
+  margin-left: 3.9rem !important;
+  margin-top: 2rem !important;
+  font-family: 'YouTube Sans' !important;
+  font-size: 1.25rem !important;
+}
+
+/* Friend div */
+.friend-div {
+  position: fixed;
+  top : 7rem;
+  left: 2rem;
+}
+
+.content-div-friends {
+  display: none;
+}
+
+#show-more {
+  opacity: 0.8;
+  width: 4rem;
+  margin : 0 auto;
+  z-index: 999;
+  animation: FADE_IN 1s;
+}
+
+#show-more:hover {
+  opacity: 0.9;
+  width: 12rem;
+}
+
+.friend-list {
+  position: fixed;
+  top: 12.5%;
+  left: 40%;
+  width: 20%;
+  height: 82.5%;
+  border-radius: 0.5rem;
+  background-color: rgba(0,0,0,0.15);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: lightgrey;
+  opacity: 0.8;
+}
+
+.black-fade {
+  display: none;
+  background-color: #505050;
+  position: fixed;
+  top : 0;
+  left : 0;
+  width: 100%;
+  height: 100%;
+}
+
+.search-content {
+  z-index: 1000;
+  position: fixed;
+  right: 2rem;
+  width : 20%;
+  border: 1px solid rgba(0,0,0,0.8);
+  border-radius: .25rem;
+  background-color: #F8F9FA;
+}
+
+.link-search, .error-message {
+  display: block;
+  margin : 0 auto;
+  text-align: center;
+  margin: 20px;
+  color : black;
+  margin-bottom: 0;
+  text-decoration: inherit;
+  font-family: 'YouTube Sans';
+  font-size: 1.5rem;
+}
+
+.error-message {
+  margin-bottom: 20px;
+}
+
+.link-search:hover {
+  text-decoration: inherit;
+  background-color: lightgrey;
+}
+
+.link-search-info {
+  text-align: center;
+}
+
+.title-ters {
+  margin : 0 auto;
+  text-align: center;
+  font-family: 'YouTube Sans';
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.title-creator {
+  margin-top: 3rem;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-family: 'YouTube Sans';
+  font-size: 1.5rem;
+}
+
+.title-members {
+  margin-top: 3rem;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-family: 'YouTube Sans';
+  font-size: 1.5rem;
+}
+
+.friend-content {
+  margin-top: -1.735rem;
+  margin-left: -2rem;
+}
+
+.friend-content-submit {
+  background-color: red;
+  border : 0;
+  border-radius: .25rem;
+}
+
+.friend-content-submit:hover {
+  opacity: 0.6;
+}
+
+.friend-content-input {
+  font-size: 1.5rem;
+  border : 0;
+  font-family: 'YouTube Sans';
+  margin-left: 6rem;
+  width: 10rem;
+  background: rgba(0,0,0,0) !important;
+  color: lightgrey;
+  outline: 0;
+  margin-top: -0.2rem !important;
+  margin-left: 6.3rem;
+}
+
+.image-white-line-2 {
+  color : black;
+  z-index: 100000;
+  padding : 0;
+  margin : 0 auto;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.add {
+    background: none;
+    border: none;
+    text-align: left;
+}
+
+.add:focus {
+    outline: 0;
+}
+
+.add-font {
+    font-family: Nunito;
+    src: url("includes/Nunito-Regular.ttf");
+}
+
+.invite-user {
+    width: 20rem;
+    height: 2.75rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.4rem;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 21px;
+    font-family: 'YouTube Sans';
+    color: #202020;
+    text-align: left;
+    background-color: #c0c0c0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  font-family: 'YouTube Sans Light';
+  font-size: 1.2rem;
+}
+
+#field-form {
+  display: none;
+}
+
+.nosurvey {
+  font-family: YouTube Sans;
+  font-size: 48px;
+  margin-top: -1.1rem;
+  margin-bottom: 2.9rem;
+  text-align: left;
+  color: #eee;
+}
+
+div[id^="my_dataviz"] {
+  display: none;
+}
+
+.analyze-text {
+  max-width: 54rem;
+}

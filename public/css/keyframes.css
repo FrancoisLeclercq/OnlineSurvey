@@ -1,0 +1,15 @@
+/* keyframes */
+@keyframes FADE_IN {
+  0% {
+    opacity: 0;
+  }
+}
+
+
+@keyframes FADE_OUT {
+  100% {
+    opacity: 0;
+  }
+}
+
+
