@@ -7,6 +7,6 @@ Make your life easier, form your feedback better
 - Intuitive and anonymous analysis
 - Evolution with our users
 
-<img src="https://i.imgur.com/lQptTxM.png" alt="Logo" width="200px">
+<img src="https://i.imgur.com/lQptTxM.png" alt="Logo" width="300px">
 
 ![Home page](https://i.imgur.com/1odmd7q.png)
